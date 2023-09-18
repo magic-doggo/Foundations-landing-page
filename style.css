@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto, sans-serif;
+  margin: 0px;
   /* margin: 8px 60px; */
 }
 
@@ -169,4 +170,13 @@ button {
 div h3,
 div .action-text {
   margin: 4px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0;
 }
