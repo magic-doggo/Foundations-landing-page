@@ -5,7 +5,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: roboto;
+  font-family: Roboto, sans-serif;
   /* margin: 8px 60px; */
 }
 
@@ -108,4 +108,28 @@ button {
 
 .img-subtext {
   margin: 10px 0;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  padding: 60px 0;
+}
+
+.inspire {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 60%;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  margin: 0;
 }
